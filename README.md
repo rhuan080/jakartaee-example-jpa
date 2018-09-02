@@ -2,6 +2,10 @@
 
 This project is an example of implementation read and write data from database using JPA.
 
+### Application Server Configurations
+
+To run this application you need create a datasource with JNDI "jdbc/MyDataSource" on the application server. 
+
 ##  RUN Postgress DataBase
 
 ### Build Docker of Postgress
@@ -14,6 +18,4 @@ $ docker build -t postgress-9.3 .
 
 $ docker run -p 5432:5432 postgress-9.3
 
-### Application Server Configurations
 
-To run this application you need create a datasource with JNDI "jdbc/MyDataSource" on the application server. 
