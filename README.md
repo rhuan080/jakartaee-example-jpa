@@ -4,7 +4,14 @@ This project is an example of implementation read and write data from database u
 
 ### Application Server Configurations
 
-To run this application you need create a datasource with JNDI "jdbc/MyDataSource" on the application server. 
+To run this application you need create a datasource on the application server with the following configurations.
+
+    JNDI: "jdbc/MyDataSource"
+    DATABASE: mydatabase
+    HOST: localhost
+    PORT: 5432
+    USER: admin
+    PASS: admin
 
 ##  RUN Postgress DataBase
 
